@@ -2,7 +2,7 @@
     "name": "asm.js-lint",
     "title": "asm.js lint",
     "id": "asm.js-lint@brett.zamir",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "main": "lib/asm-lint.js",
     "directories": {"lib": "./lib"},
     "license": "MIT",
