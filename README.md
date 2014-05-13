@@ -6,7 +6,7 @@ asm.js lint plug-in for CodeMirror
 
 Except during development (for the sake of the test file), the plug-in does
 not install CodeMirror (nor put it within `package.json`'s
-`[peerDependencies](http://blog.nodejs.org/2013/02/07/peer-dependencies/)`
+[`peerDependencies`](http://blog.nodejs.org/2013/02/07/peer-dependencies/)
 which would include CodeMirror in a subdirectory).
 
 Since CodeMirror already has `node_modules` in its `.gitignore`, you can
