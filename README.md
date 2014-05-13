@@ -20,3 +20,11 @@ npm install asm.js-lint
 Then in your HTML, along with `<codemirror>/addon/lint/lint.js` make
 sure to add script tags for `<asm.js-lint>/dist/asm-lint-helper.compiled.js`
 and `<asm.js-lint>/lib/asm-lint.js`.
+
+Note that if you install from the repo instead of npm, you will have to
+[browserify](http://browserify.org/):
+
+```
+cd <asm.js-lint directory>
+browserify src/asm-lint-helper.js -o dist/asm-lint-helper.compiled.js
+```
