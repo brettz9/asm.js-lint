@@ -1,0 +1,28 @@
+{
+    "name": "asm.js-lint",
+    "title": "asm.js lint",
+    "id": "asm.js-lint@brett.zamir",
+    "version": "0.1.0",
+    "main": "lib/asm-lint.js",
+    "directories": {"lib": "./lib"},
+    "license": "MIT",
+    "author": "Brett Zamir",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brettz9/asm.js-lint.git"
+    },
+    "scripts": {
+        "prepublish": "browserify src/asm-lint-helper.js -o dist/asm-lint-helper.compiled.js"
+    },
+    "devDependencies": {
+        "browserify": "4.x",
+        "codemirror": "4.x",
+        "asm.js": "0.x"
+    },
+    "bugs": "http://github.com/marijnh/CodeMirror/issues",
+    "description": "asm.js lint plug-in for CodeMirror",
+    "keywords": [
+        "asm.js", "CodeMirror"
+    ]
+}

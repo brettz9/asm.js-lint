@@ -1,4 +1,7 @@
-asm.js-lint
-===========
+# asm.js-lint
 
-CodeMirror asm.js lint plug-in
+asm.js lint plug-in for CodeMirror
+
+Install:
+
+```npm install asm.js-lint```
