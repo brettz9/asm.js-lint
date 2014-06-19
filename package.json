@@ -2,7 +2,7 @@
     "name": "asm.js-lint",
     "title": "asm.js lint",
     "id": "asm.js-lint@brett.zamir",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "main": "lib/asm-lint.js",
     "directories": {"lib": "./lib"},
     "license": "MIT",
@@ -20,7 +20,7 @@
         "codemirror": "4.x",
         "asm.js": "git+https://git@github.com/dherman/asm.js#master"
     },
-    "bugs": "http://github.com/marijnh/CodeMirror/issues",
+    "bugs": "https://github.com/brettz9/asm.js-lint",
     "description": "asm.js lint plug-in for CodeMirror",
     "keywords": [
         "asm.js", "CodeMirror"
