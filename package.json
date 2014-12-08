@@ -20,7 +20,7 @@
         "codemirror": "4.x",
         "asm.js": "git+https://git@github.com/dherman/asm.js#master"
     },
-    "bugs": "https://github.com/brettz9/asm.js-lint",
+    "bugs": "https://github.com/brettz9/asm.js-lint/issues",
     "description": "asm.js lint plug-in for CodeMirror",
     "keywords": [
         "asm.js", "CodeMirror"
