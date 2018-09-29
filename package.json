@@ -15,6 +15,9 @@
     "scripts": {
         "prepublish": "browserify src/asm-lint-helper.js -o dist/asm-lint-helper.compiled.js"
     },
+    "engines": {},
+    "homepage": "https://github.com/brettz9/asm.js-lint",
+    "dependencies": {},
     "devDependencies": {
         "browserify": "4.x",
         "codemirror": "4.x",
